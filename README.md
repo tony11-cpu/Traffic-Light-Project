@@ -1,34 +1,24 @@
-# MyTrafficLightProj
+# Traffic Light Project
 
-A custom WinForms Traffic Light UserControl in C# that cycles through Red, Green, and Orange lights with a live countdown and configurable durations.
+This project demonstrates the functionality of a traffic light system using microcontroller programming. It includes features such as:
 
----
+- Red, Yellow, and Green lights with appropriate timing
+- Pedestrian crossing signals
+- Emergency vehicle detection and response
 
-## Features
+## Setup Instructions
 
-- Auto-cycles Red → Green → Orange
-- Configurable duration per light
-- Live countdown timer
-- Events fired on each light change
-- Async/await, non-blocking UI
-- Start / Stop support
+1. Clone the repository: `git clone https://github.com/tony11-cpu/Traffic-Light-Project.git`
+2. Open the project in your preferred IDE.
+3. Upload the code to your microcontroller.
+4. Follow the wiring instructions in the provided diagrams.
 
----
+## Usage
 
-## How It Works
+To operate the traffic light system:
+- Ensure power is connected to the microcontroller.
+- Observe the normal cycling of lights. Pedestrian signals will activate upon request.
 
-Drop the control on any WinForms form, set the durations for each light, and call Start. The control handles the rest — cycling through each light, counting down, and firing events so your form can react to each change.
+## Contributing
 
----
-
-## Built With
-
-- C# .NET Framework
-- WinForms
-- async / await + CancellationToken
-
----
-
-## Author
-
-Tony — self-taught C# developer building real-world Windows desktop projects.
+Feel free to fork the repository and submit pull requests for any improvements!
