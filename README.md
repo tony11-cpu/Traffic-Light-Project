@@ -65,4 +65,3 @@ _ = eastWest.Start();
 - More realistic intersection phases
 
 ---
-*MIT licensed. Code by Tony.*
